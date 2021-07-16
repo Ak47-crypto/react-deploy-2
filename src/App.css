@@ -1,38 +1,47 @@
-.App {
+body{
+  background-color: rgb(235, 230, 230);
+}
+header{
+  background-color: rgb(230, 224, 224);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Courier New', Courier, monospace;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p{
+  font-style: italic;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.p1,section>article>h2{
+  margin-left:1em;
 }
-
-.App-link {
-  color: #61dafb;
+a{
+  display: inline-block;
+  margin: 1em;
+  border: 1px solid rgb(218, 213, 213);
+  padding: 1.5em;
+  background-color: rgb(218, 213, 213);
+  text-decoration: none;
+  border-radius: 1em;
+  box-shadow:1px 1px 5px 1px rgb(170, 168, 168) ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover{
+  text-decoration: underline;
+}
+article{
+  width: 49%;
+  float: left;
+}
+section>article{
+  background-color: rgb(201, 198, 198);
+}
+article:nth-child(2){
+  background-color: rgb(201, 198, 198);
+  padding-left: 1.78em;
+}
+footer{
+  clear: both;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
 }
